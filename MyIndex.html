@@ -1,0 +1,106 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation | Interchange</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/css/foundation.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/foundation.min.js"></script>
+
+	</head>
+	<body >
+		<div class="row">
+			<div class="columns">
+					<h1>Welcome to Foundation learning by Bharat</h1>
+			</div>
+		</div>
+
+		<div class="row" style="margin-bottom: 20px;" data-equalizer>
+			<div class="large-4 columns" style="background: #00FF00;" data-equalizer-watch>
+					In foundation CSS views are divided into 12 virtual columns per row.
+			</div>
+			<div class="large-6 columns" style="background: #D2B48C;" data-equalizer-watch>
+					Three classes .large(laptops), .medium(tablets), .small(mobile phones)
+			</div>
+			<div class="large-2 columns" style="background: #FFFF00;" data-equalizer-watch>
+					Addind 'columns' class to columns is cumpolsory
+			</div>
+		</div>
+
+		<div class="row" style="margin-bottom: 20px;">
+			<div class="small-6 large-4 columns" style="background: #00FF00;">
+					Adding custom column size for small screens
+			</div>
+			<div class="small-6 columns" style="background: #D2B48C;">
+					First div will span across 6 columns while viewing in mobile. If we give only small class same size will be adopted for other views as foundation follows
+			mobile first approach.
+			</div>
+			<div class="large-2 columns" style="background: #FFFF00;">
+					remaining 2 divs will stack on each other as they do not have any small scree size specification.
+			</div>
+		</div>
+
+		<hr size="2" color="blue">
+		<span>Nested columns demo</span>
+		<div class="row" style="margin-bottom: 20px;">
+			<div class="small-8 columns" style="border: 5px solid #FF0000">Parent Column l
+				<div class="row">
+					<div class="small-8 columns"style="border: 5px solid #7CFC00;">
+					Nested 1
+						<div class="row">
+							<div class="small-6 columns" style="border: 5px solid #0000CD;">Sub Child 1</div>
+							<div class="small-6 columns" style="border: 5px solid #FF00FF;">Sub Child 2</div>
+						</div>
+					</div>
+					<div class="small-4 columns" style="border: 5px solid #000000;">
+						Nested 2
+					</div>
+				</div>
+			</div>
+			<div class="small-4 columns"style="border: 5px solid #228B22;">
+				Parent Column 2
+			</div>
+		</div>
+		
+		<hr size="2" color="blue">
+		<h1 class="small-4 small-centered columns" style="border: 5px solid #228B22;"> Using offsets in Foundation <h1/>
+		<div class="row" style="margin-bottom: 20px;">
+			<div class="small-2 columns" style="border: 5px solid #FF0000"> Normal Column </div>
+			<div class="small-4 small-offset-6 columns" style="border: 5px solid #FF00FF"> Column with offset 6 </div>
+		</div>
+		
+		<hr size="2" color="blue">
+		<h1 class="small-4 small-centered columns">Block Grids<h1/>
+		<div class="row small-up-3 medium-up-4 large-up-5"style="margin-bottom: 20px;">
+			<div class="column">
+				<span>Animal</span>
+			</div>
+			<div class="column">
+				<span>Nature</span>
+			</div>
+			<div class="column">
+				<span>Train</span>
+			</div>
+			<div class="column">
+				<span>City</span>
+			</div>
+			<div class="column">
+				<span>Ear Phones</span>
+			</div>
+		</div>
+		
+		
+		<hr size="2" color="blue">
+
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/what-input.min.js"></script>
+	<script>
+      $(document).foundation();
+	</script>
+
+  </body>
+</html>
