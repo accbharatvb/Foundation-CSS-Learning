@@ -1,0 +1,30 @@
+@media screen and (max-width: 39.9375em) {
+    .college-banner {
+        text-align: center;
+        padding-top: 20px;
+     }
+
+     .banner-content-heading {
+        font-size: 39px;
+    }
+
+    .banner-content {
+        padding: 0px 0 20px 0px;
+    }
+
+    .download-button{
+        margin: auto;
+    }
+
+    .college-banner {
+        background-image: none;
+        background-color: rgb(248,248,248);
+    }
+
+
+    .stats-container, .stats-container h2 {
+        text-align: center;
+        font-size: 27px;
+        letter-spacing: 0px;
+    }
+}
