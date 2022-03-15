@@ -459,7 +459,8 @@ textarea {
   .grid-x > .large-5 {
     width: 41.66667%; }
   .grid-x > .large-6 {
-    width: 50%; }
+    width: 50%;
+    }
   .grid-x > .large-7 {
     width: 58.33333%; }
   .grid-x > .large-8 {
@@ -2285,7 +2286,8 @@ h6, .h6 {
   h2, .h2 {
     font-size: 2.5rem; }
   h3, .h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.9375rem;
+    }
   h4, .h4 {
     font-size: 1.5625rem; }
   h5, .h5 {

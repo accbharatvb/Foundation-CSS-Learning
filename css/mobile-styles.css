@@ -27,4 +27,72 @@
         font-size: 27px;
         letter-spacing: 0px;
     }
+
+
+    /* stories */
+    .stories-container h2 {
+        text-align: center;
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .stories-container .story-text {
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+        padding-bottom: 1.6rem;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+
+    .offer-text {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .growth-container .heading {
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .ind-container .offer-text {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .ind-container .heading {
+        font-size: 28px;
+        text-align: left;
+        line-height: 45px;
+    }
+
+    .tech-text {
+        padding: 10px 0px 15px 0px;
+    }
+
+    .tech-title {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+
+    .ben-container .brochure-card-heading {
+        font-size: 37px;
+        line-height: 45px;
+    }
+
+    .brochure-card .text {
+        padding-left: 15px;
+    }
+
+    .pro-container .heading {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+    }
+
 }
