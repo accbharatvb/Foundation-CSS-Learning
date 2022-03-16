@@ -95,4 +95,11 @@
         text-align: center;
     }
 
+    .menu-button div {
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 5px 0;
+      }
+
 }
